@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 140px;
+    width: 600px;
+    background-color: rgba(255, 255, 255,0.5);
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+.container:hover{
+    background: white;
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: #fc033d;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Poppins SemiBold";
+}
+
+.underline{
+    background: #fc033d;
+    width: 79px;
+    height: 9px;
+    border-radius: 200px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.inputs input{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    background: #ffd2dd;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+.input input::placeholder {
+    font-family: 'poppins';
+    font-size: 16px;
+    color: gray;
+    padding-left: 10px;
+}
+.forgetPassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 60px;
+}
+.hehe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fc033d;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; /* fallback added */
+    margin-top: -30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hehe:hover {
+    transform: scale(1.1); /* pop out */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* subtle glow */
+}
+.grey{
+    background: #524142;
+    opacity: 0.5;
+}
+.top-bar{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 100%;
+    height: 100px;
+}
+.title{
+    display: flex;
+    font-size: 22px;
+    font-family: "Poppins SemiBold";
+    font-weight: 700;
+    color: #fc033d;
+    padding-left: 30px;
+    align-items: center;
+
+}
+
+h1{
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+h1:hover{
+    transform: scale(1.1); 
+}
+.dropdown{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    background: #ffd2dd;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: gray;
+}
+.donor-list li {
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    color: green;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    color: red;
+}
